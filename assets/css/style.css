@@ -22,8 +22,9 @@
     background: var(--background);
     color: var(--color);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/bg.svg");
-    background-repeat: no-repeat;
+    background-repeat: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),no-repeat;
     background-size: cover;
+    
   }
 
 .mobile{
