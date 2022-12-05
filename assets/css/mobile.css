@@ -1,0 +1,117 @@
+@media screen and (max-width: 1000px) {
+
+    .title{
+        margin: 5%;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stack span {
+        font-size: 8vw;
+    }
+
+    @keyframes glitch {
+        0% {
+          text-shadow: -10px 6px 0 #00b562, 10px -6px 0 #67a588;
+          transform: translate(var(--glitch-translate));
+        }
+        2% {
+          text-shadow: -10px 6px 0 #00b562, 10px -6px 0 #67a588
+        }
+        4%, 100% {  text-shadow: none; transform: none; }
+      }
+
+    header{
+        display: none;
+    }
+
+    .mobile{
+        display: flex;
+    }
+    .about{
+      padding-top: 3%;
+    }
+    .about-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 10vw;
+      }
+    .outnow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 6vw;
+      }
+      
+    .new-album{
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+    }
+      
+      .album-img{
+        
+        border-radius: 30px;
+        width: 60%;
+      }
+
+    
+      .cards{
+    
+        display: flex;
+        margin-right:auto;
+        margin-left:auto;
+        width: 100%;
+        justify-content: center;
+        align-content: center;
+      
+      }
+      .card{
+        padding:5%;
+        
+        color:white;
+        border-radius: 30px;
+        margin: 1%;
+        text-align: center;
+        transition: all 0.5s;
+      }
+      
+      .card h1{
+        font-size: 5vw;
+      }
+      
+      .card span{
+        font-size: 4vw;
+      }
+
+    .card-1{
+        width:50%
+    }
+    .card-2{
+        width: 100%;
+    }
+    .card-3{
+        width:50%
+    }
+    
+    .itemlink{
+        color: #00b562;
+        font-size: 8vw;
+        margin: 5%;
+    }
+
+    .linkalbum .itemlink{
+        color: #00b562;
+        font-size: 8vw;
+        padding: 3%;
+      }
+
+    .nav{
+      display: none;
+    }
+      
+    
+}

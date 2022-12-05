@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --background: #060608;
+    --color: #FAFAFA;
+    --primary-color: #00b562; 
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    background: var(--background);
+    color: var(--color);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("images/bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.mobile{
+  display: none;
+}
+
+.fullscreen {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-color: #333;
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.title{
+  padding: 2%;
+  font-size: 10vw;
+    
+}
+.stack span {
+    font-size: 2vw;
+}
+
+.about{
+  padding-top: 10%;
+  margin-right:auto;
+  margin-left:auto;
+  width: 90%;
+}
+
+.about-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 5vw;
+}
+.outnow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 3vw;
+}
+
+.new-album{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.album-img{
+  
+  width: 30%;
+  transition: all 0.25s;
+}
+
+.album-img:hover{
+  transform: scale(1.1);
+}
+
+
+.cards{
+    
+  display: flex;
+  margin-right:auto;
+  margin-left:auto;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+
+}
+.card{
+  padding:5%;
+  background-color: #1d1d1d;
+  color:white;
+  border-radius: 20px;
+  margin: 1%;
+  text-align: center;
+  transition: all 0.5s;
+  
+}
+
+.card h1{
+  transition: all 0.5s;
+  font-size: 1.7vw;
+  color: #00b562;
+  height: 45%;
+}
+
+.card span{
+  font-size: 1.3vw;
+  
+}
+
+.card:hover{
+  background-color: var(--primary-color);
+  padding: 6%;
+  
+}
+
+.card:hover h1{
+  color: white;
+}
+
+.card-1{
+width:37.5%
+}
+.card-2{
+width: 77%;
+}
+.card-3{
+width:37.5%
+}
+
+
+.card-1:hover{
+  background-color: var(--primary-color);
+  transform: scale(1.1);
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.card-2:hover{
+background-color: var(--primary-color);
+transform: scale(1.1);
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover;
+}
+
+.card-3:hover{
+background-color: var(--primary-color);
+transform: scale(1.1);
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover;
+}
+
+.linkcard a{
+  margin: 0% 3%;
+}
+
+.itemlink{
+  color: #00b562;
+  font-size: 4vw;
+  padding: 3%;
+}
+
+.card:hover .itemlink{
+  color:white;
+}
+
+.linkalbum a{
+  margin:2%;
+}
+.linkalbum .itemlink{
+  color: #00b562;
+  font-size: 3vw;
+  padding: 3%;
+}
+
+.linkbtn{
+  background-color: #00b562;
+  border-radius: 30px;
+  color: white;
+  border: solid #00b562;
+  font-size: 6vw;
+  font-weight: 600;
+  padding: 2% 5%;
+}
